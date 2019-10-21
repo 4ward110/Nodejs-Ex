@@ -30,10 +30,16 @@ app.use(express.urlencoded({ extended: true })) // for parsing application/x-www
 - include Bootstrap pugjs
 - using public file css,js,img,...
 
-#Lesson8: Server validation
-- 
+#Lesson8: Server validation + Middleware
+- set the rule for input
+- Middleware : function called when using http method or validation....etc(bodyparse, cookie-parse,...)
+- require middleware which install bt npm in server file
+- Can be store variable or something by using res.locals among middleware function
 
-
+#9Lesson9: Cookie + Authentication 
+- Cookie: server send cookie, browser save and send to the serser when request
+- Application cookie: login,.... 
+- Authentication: using cookies.
 
 
 
