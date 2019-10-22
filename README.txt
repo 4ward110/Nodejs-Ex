@@ -54,6 +54,7 @@ app.use(express.urlencoded({ extended: true })) // for parsing application/x-www
 # Lesson11: Debug Nodejs app
 - Add debugger: go to package.json -> start -> nodemon --inspect index.js
 
+# Lesson12: Pagination
 
 
 
