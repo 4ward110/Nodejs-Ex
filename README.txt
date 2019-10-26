@@ -56,6 +56,13 @@ app.use(express.urlencoded({ extended: true })) // for parsing application/x-www
 
 # Lesson12: Pagination
 
+# Lesson13: Upload file
+- step 1 change Html <form> enctype attribute 
+- middleware: express-multer
+
+# Lesson14: Session
+
+
 
 
 
