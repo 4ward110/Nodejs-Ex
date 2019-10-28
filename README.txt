@@ -60,7 +60,30 @@ app.use(express.urlencoded({ extended: true })) // for parsing application/x-www
 - step 1 change Html <form> enctype attribute 
 - middleware: express-multer
 
-# Lesson14: Session
+# Lesson14: Session:
+- its an Id (like cookie) for user when they didn't login , and storage data in there ex: cart,....
+- 
+# Lesson 15: CRSF attack: 
+- it's is a form attack using cookies of user when they click to fake link of hackers and hacker using their cookies to transfer or payment,...etc
+- Solution: set token for the form and when the form send => server chek this form if haven't a token => reject submit 
+- suggest: middleware "csurf" create and check token 
+
+# Lesson 16: MongoDB+mongoose
+- install mongodb , run server: "mongod" , open mongoshell : "mongo", use collection:"use"+ collection_name, show collections, db.(colection_name).find(); to show all value of this colection
+- install robo3t to show database 
+- array(colection), object(document)
+- Mongoose library
+- Create Models(MVC)
+
+# Lesson 17: http API, Rest API, deploy to server
+- create http api 
+- Rest API: get,post,path,put,delete
+- 
+
+
+
+
+
 
 
 
